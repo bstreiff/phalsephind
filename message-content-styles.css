@@ -1,0 +1,15 @@
+.phalsephindBanner {
+  background-color: #d70022;
+  color: white;
+  font-weight: 400;
+  padding: 0.25rem 0.5rem;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0.25rem;
+  display: flex;
+}
+
+.phalsephindBannerText {
+  flex-grow: 1;
+}

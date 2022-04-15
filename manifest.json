@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "PhalsePhind",
+    "description": "Highlight simulated phishing attacks",
+    "version": "1.0",
+    "author": "Brenda Streiff",
+    "background": {
+       "page": "background.html"
+    },
+    "applications": {
+        "gecko": {
+            "id": "phalsephind@tb.streiff.net",
+            "strict_min_version": "78.0"
+        }
+    },
+    "icons": {
+        "64": "images/phish-64.png",
+        "32": "images/phish-32.png",
+        "16": "images/phish-16.png"
+    },
+    "permissions": [
+        "messagesRead",
+        "messagesModify"
+    ]
+}
